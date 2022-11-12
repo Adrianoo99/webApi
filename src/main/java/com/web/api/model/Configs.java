@@ -41,18 +41,20 @@ public class Configs {
         this.name = name;
     }
 
+    public int getUser_id() {
+        return user_id;
+    }
+    public void setUser_id(int user_id) {
+        this.user_id = user_id;
+    }
+
     public String getConfig() {
         return config;
     }
     public void setConfig(String config) {
         this.config = config;
     }
-    public int getIs_public() {
-        return is_public;
-    }
-    public void setIs_public(int is_public) {
-        this.is_public = is_public;
-    }
+
 
 
 }

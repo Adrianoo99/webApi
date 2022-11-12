@@ -15,4 +15,8 @@ public class ConfigsService {
     public List<Configs> getConfigs() {
         return configsRepository.findAll();
     }
+
+    public Configs getUserConfigs(Integer user_id) {
+        return configsRepository.findById(user_id).get();
+    }
 }
